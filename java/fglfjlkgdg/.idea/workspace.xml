@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6b0ec926-556b-4661-a8f0-9df2fb7997fd" name="Default Changelist" comment="" />
+    <list default="true" id="6b0ec926-556b-4661-a8f0-9df2fb7997fd" name="Default Changelist" comment="merge arrays">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/fglfjlkgdg/com/rsticks/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/fglfjlkgdg/com/rsticks/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/fglfjlkgdg/com/rsticks/Quiz.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/fglfjlkgdg/com/rsticks/Quiz.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/fglfjlkgdg/com/rsticks/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/fglfjlkgdg/com/rsticks/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/rsticks/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/rsticks/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/rsticks/Quiz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/rsticks/Quiz.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,7 +25,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
   <component name="ProjectId" id="1VCROunWnJLKs9SgPIDhUaLiMSn" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -29,6 +41,7 @@
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -103,11 +116,27 @@
       <workItem from="1577441483192" duration="1622000" />
       <workItem from="1577449234696" duration="6634000" />
       <workItem from="1577465905335" duration="2406000" />
+      <workItem from="1577532287780" duration="6669000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="merge arrays" />
+    <option name="LAST_COMMIT_MESSAGE" value="merge arrays" />
   </component>
   <component name="WindowStateProjectService">
     <state x="880" y="357" key="#Project_Structure" timestamp="1577449643806">
@@ -130,6 +159,10 @@
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
     <state x="868" y="353" key="#com.intellij.openapi.projectRoots.ui.ProjectJdksEditor/0.23.2560.1337@0.23.2560.1337" timestamp="1577449512613" />
+    <state x="527" y="472" key="CommitChangelistDialog2" timestamp="1577544035799">
+      <screen x="0" y="23" width="2560" height="1337" />
+    </state>
+    <state x="527" y="472" key="CommitChangelistDialog2/0.23.2560.1337@0.23.2560.1337" timestamp="1577544035799" />
     <state width="2518" height="469" key="GridCell.Tab.-1.bottom" timestamp="1576755330137">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
@@ -146,38 +179,38 @@
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
     <state width="2518" height="469" key="GridCell.Tab.-1.right/0.23.2560.1337@0.23.2560.1337" timestamp="1576755330136" />
-    <state width="2518" height="469" key="GridCell.Tab.0.bottom" timestamp="1577469873598">
+    <state width="2518" height="382" key="GridCell.Tab.0.bottom" timestamp="1577543575069">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
-    <state width="2518" height="469" key="GridCell.Tab.0.bottom/0.23.2560.1337@0.23.2560.1337" timestamp="1577469873598" />
-    <state width="2518" height="469" key="GridCell.Tab.0.center" timestamp="1577469873598">
+    <state width="2518" height="382" key="GridCell.Tab.0.bottom/0.23.2560.1337@0.23.2560.1337" timestamp="1577543575069" />
+    <state width="2518" height="382" key="GridCell.Tab.0.center" timestamp="1577543575068">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
-    <state width="2518" height="469" key="GridCell.Tab.0.center/0.23.2560.1337@0.23.2560.1337" timestamp="1577469873598" />
-    <state width="2518" height="469" key="GridCell.Tab.0.left" timestamp="1577469873598">
+    <state width="2518" height="382" key="GridCell.Tab.0.center/0.23.2560.1337@0.23.2560.1337" timestamp="1577543575068" />
+    <state width="2518" height="382" key="GridCell.Tab.0.left" timestamp="1577543575067">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
-    <state width="2518" height="469" key="GridCell.Tab.0.left/0.23.2560.1337@0.23.2560.1337" timestamp="1577469873598" />
-    <state width="2518" height="469" key="GridCell.Tab.0.right" timestamp="1577469873598">
+    <state width="2518" height="382" key="GridCell.Tab.0.left/0.23.2560.1337@0.23.2560.1337" timestamp="1577543575067" />
+    <state width="2518" height="382" key="GridCell.Tab.0.right" timestamp="1577543575068">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
-    <state width="2518" height="469" key="GridCell.Tab.0.right/0.23.2560.1337@0.23.2560.1337" timestamp="1577469873598" />
-    <state width="2518" height="469" key="GridCell.Tab.1.bottom" timestamp="1577469873599">
+    <state width="2518" height="382" key="GridCell.Tab.0.right/0.23.2560.1337@0.23.2560.1337" timestamp="1577543575068" />
+    <state width="2518" height="469" key="GridCell.Tab.1.bottom" timestamp="1577539617761">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
-    <state width="2518" height="469" key="GridCell.Tab.1.bottom/0.23.2560.1337@0.23.2560.1337" timestamp="1577469873599" />
-    <state width="2518" height="469" key="GridCell.Tab.1.center" timestamp="1577469873599">
+    <state width="2518" height="469" key="GridCell.Tab.1.bottom/0.23.2560.1337@0.23.2560.1337" timestamp="1577539617761" />
+    <state width="2518" height="469" key="GridCell.Tab.1.center" timestamp="1577539617760">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
-    <state width="2518" height="469" key="GridCell.Tab.1.center/0.23.2560.1337@0.23.2560.1337" timestamp="1577469873599" />
-    <state width="2518" height="469" key="GridCell.Tab.1.left" timestamp="1577469873599">
+    <state width="2518" height="469" key="GridCell.Tab.1.center/0.23.2560.1337@0.23.2560.1337" timestamp="1577539617760" />
+    <state width="2518" height="469" key="GridCell.Tab.1.left" timestamp="1577539617759">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
-    <state width="2518" height="469" key="GridCell.Tab.1.left/0.23.2560.1337@0.23.2560.1337" timestamp="1577469873599" />
-    <state width="2518" height="469" key="GridCell.Tab.1.right" timestamp="1577469873599">
+    <state width="2518" height="469" key="GridCell.Tab.1.left/0.23.2560.1337@0.23.2560.1337" timestamp="1577539617759" />
+    <state width="2518" height="469" key="GridCell.Tab.1.right" timestamp="1577539617760">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
-    <state width="2518" height="469" key="GridCell.Tab.1.right/0.23.2560.1337@0.23.2560.1337" timestamp="1577469873599" />
+    <state width="2518" height="469" key="GridCell.Tab.1.right/0.23.2560.1337@0.23.2560.1337" timestamp="1577539617760" />
     <state x="789" y="330" key="SettingsEditor" timestamp="1577441528475">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
@@ -204,8 +237,8 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/rsticks/Main.java</url>
-          <line>15</line>
-          <option name="timeStamp" value="5" />
+          <line>20</line>
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

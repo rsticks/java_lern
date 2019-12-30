@@ -87,6 +87,7 @@ class Test{
         //str = str.toUpperCase();
         bstr = new StringBuilder(str);
         //bstr.reverse().toString();
+
         if (str.equalsIgnoreCase(bstr.reverse().toString()))
             return true;
         else

@@ -6,6 +6,7 @@ import java.math.*;
 
 import java.security.MessageDigest;
 import java.util.Arrays;
+import java.util.Date;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -77,7 +78,8 @@ public class Quiz
     }
 }
 
-class Test{
+class Test
+{
 
     public static boolean isPalindrome(String text) {
         StringBuilder bstr;

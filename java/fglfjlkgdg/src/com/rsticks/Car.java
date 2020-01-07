@@ -1,5 +1,7 @@
 package com.rsticks;
 
+import java.util.Collection;
+
 public class Car{
 	private int     maxSpeed;
 	private int     seed;
@@ -12,6 +14,10 @@ public class Car{
 		this.number = num;
 	}
 
+	public int getMaxSpeed() {
+		return maxSpeed;
+	}
+
 	@Override
 	public String toString()
 	{
@@ -19,5 +25,17 @@ public class Car{
 				"\nMax Sped:" + maxSpeed +
 				"\nseeds:" + seed +
 				"\nnumber:" + number;
+	}
+}
+
+class Toyota  extends Car{
+
+	public Toyota(int maxSpeed, int seed, String num) {
+		super(maxSpeed, seed, num);
+	}
+
+	public void getDrive()
+	{
+		System.out.println("Gooooo!1! speed: " + super.getMaxSpeed() + "!!!");
 	}
 }

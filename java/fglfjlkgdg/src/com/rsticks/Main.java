@@ -7,20 +7,25 @@ import java.util.*;
 import java.security.MessageDigest;
 
 
-public class Main {
-
+public class Main{
     public static void main(@NotNull String[] args)
     {
-        Vector d = new Vector();
-        BitSet f;
-        d.add(1);
-        d.add(2);
-        d.add(3);
-        d.set(1, 2);
-
-        System.out.println(d.get(1));
-        Car car = new Car(200, 2, "xep");
-        System.out.println(car);
+        List list = new LinkedList();
+        list.add("111");
+        list.add(123);
+        list.add("333");
+        list.add("232134");
+        list.add(2, "ppp");
+        Iterator x = list.iterator();
+        System.out.println("size array: " + list.size());
+        System.out.println("list content: " + list);
+//        Toyota toyo = new Toyota(230, 3, "007");
+//
+//        toyo.getDrive();
+//        System.out.println(toyo);
+//        Car car = new Toyota(200, 2, "111");
+//
+//        System.out.println(car);
 //        String str;
 //        int[] a1 = {0, 2, 4};
 //        int[] a2 = {0, 2, 3, 3, 4, 6};

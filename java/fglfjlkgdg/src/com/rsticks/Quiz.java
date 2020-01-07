@@ -1,5 +1,7 @@
 package com.rsticks;
 
+import org.jetbrains.annotations.NotNull;
+
 import javax.swing.*;
 import java.lang.reflect.Array;
 import java.math.*;
@@ -113,7 +115,7 @@ class Test
         return bi;
     }
 
-    public static int[] mergeArrays(int[] a1, int[] a2)
+    public static int[] mergeArrays(@NotNull int[] a1, int[] a2)
     {
         int[] arr;
         int size1 = a1.length;

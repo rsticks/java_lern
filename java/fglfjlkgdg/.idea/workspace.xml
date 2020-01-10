@@ -2,15 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6b0ec926-556b-4661-a8f0-9df2fb7997fd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/rsticks/MultithreadingDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/rsticks/ThrTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/rsticks/fractal/ChangeColor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/rsticks/fractal/Complex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/rsticks/fractal/Fractal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/rsticks/fractal/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/fglfjlkgdg/com/rsticks/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/fglfjlkgdg/com/rsticks/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/fglfjlkgdg/com/rsticks/Quiz.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/fglfjlkgdg/com/rsticks/Quiz.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/fglfjlkgdg/com/rsticks/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/fglfjlkgdg/com/rsticks/Test.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/rsticks/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/rsticks/Car.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/rsticks/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/rsticks/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/rsticks/Quiz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/rsticks/Quiz.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/rsticks/MultithreadingDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/rsticks/MultithreadingDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/rsticks/ThrTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/rsticks/ThrTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +61,20 @@
       <recent name="com.rsticks" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MultithreadingDemo">
+  <component name="RunManager" selected="Application.Main (1)">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.rsticks.fractal.Main" />
+      <module name="fglfjlkgdg" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.rsticks.fractal.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.rsticks.Main" />
       <module name="fglfjlkgdg" />
@@ -98,8 +113,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MultithreadingDemo" />
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.MultithreadingDemo" />
         <item itemvalue="Application.Quiz" />
       </list>
     </recent_temporary>
@@ -147,7 +163,10 @@
       <workItem from="1577702204345" duration="6619000" />
       <workItem from="1578229298425" duration="5025000" />
       <workItem from="1578314460451" duration="1876000" />
-      <workItem from="1578399886284" duration="8985000" />
+      <workItem from="1578399886284" duration="9134000" />
+      <workItem from="1578573263084" duration="6234000" />
+      <workItem from="1578587123003" duration="1890000" />
+      <workItem from="1578656762515" duration="12951000" />
     </task>
     <task id="LOCAL-00001" summary="merge arrays">
       <created>1577544070331</created>
@@ -177,7 +196,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578330433858</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="thread test">
+      <created>1578413097139</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1578413097139</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -201,9 +227,14 @@
     <MESSAGE value="test" />
     <MESSAGE value="Robot.java" />
     <MESSAGE value="car" />
-    <option name="LAST_COMMIT_MESSAGE" value="car" />
+    <MESSAGE value="thread test" />
+    <option name="LAST_COMMIT_MESSAGE" value="thread test" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="964" y="368" key="#Main" timestamp="1578578564277">
+      <screen x="0" y="23" width="2560" height="1337" />
+    </state>
+    <state x="964" y="368" key="#Main/0.23.2560.1337@0.23.2560.1337" timestamp="1578578564277" />
     <state x="880" y="357" key="#Project_Structure" timestamp="1577449643806">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
@@ -240,10 +271,10 @@
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
     <state x="1028" y="554" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.23.2560.1337@0.23.2560.1337" timestamp="1578410620904" />
-    <state x="601" y="367" key="CommitChangelistDialog2" timestamp="1578330433627">
+    <state x="601" y="367" key="CommitChangelistDialog2" timestamp="1578413096894">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
-    <state x="601" y="367" key="CommitChangelistDialog2/0.23.2560.1337@0.23.2560.1337" timestamp="1578330433627" />
+    <state x="601" y="367" key="CommitChangelistDialog2/0.23.2560.1337@0.23.2560.1337" timestamp="1578413096894" />
     <state x="100" y="123" width="2360" height="1137" key="DiffContextDialog" timestamp="1578401279291">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
@@ -264,50 +295,50 @@
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
     <state width="2518" height="469" key="GridCell.Tab.-1.right/0.23.2560.1337@0.23.2560.1337" timestamp="1576755330136" />
-    <state width="2518" height="382" key="GridCell.Tab.0.bottom" timestamp="1578413067472">
+    <state width="2518" height="278" key="GridCell.Tab.0.bottom" timestamp="1578674058183">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
-    <state width="2518" height="382" key="GridCell.Tab.0.bottom/0.23.2560.1337@0.23.2560.1337" timestamp="1578413067472" />
-    <state width="2518" height="382" key="GridCell.Tab.0.center" timestamp="1578413067471">
+    <state width="2518" height="278" key="GridCell.Tab.0.bottom/0.23.2560.1337@0.23.2560.1337" timestamp="1578674058183" />
+    <state width="2518" height="278" key="GridCell.Tab.0.center" timestamp="1578674058183">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
-    <state width="2518" height="382" key="GridCell.Tab.0.center/0.23.2560.1337@0.23.2560.1337" timestamp="1578413067471" />
-    <state width="2518" height="382" key="GridCell.Tab.0.left" timestamp="1578413067471">
+    <state width="2518" height="278" key="GridCell.Tab.0.center/0.23.2560.1337@0.23.2560.1337" timestamp="1578674058183" />
+    <state width="2518" height="278" key="GridCell.Tab.0.left" timestamp="1578674058183">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
-    <state width="2518" height="382" key="GridCell.Tab.0.left/0.23.2560.1337@0.23.2560.1337" timestamp="1578413067471" />
-    <state width="2518" height="382" key="GridCell.Tab.0.right" timestamp="1578413067472">
+    <state width="2518" height="278" key="GridCell.Tab.0.left/0.23.2560.1337@0.23.2560.1337" timestamp="1578674058183" />
+    <state width="2518" height="278" key="GridCell.Tab.0.right" timestamp="1578674058183">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
-    <state width="2518" height="382" key="GridCell.Tab.0.right/0.23.2560.1337@0.23.2560.1337" timestamp="1578413067472" />
-    <state width="2518" height="278" key="GridCell.Tab.1.bottom" timestamp="1578412223738">
+    <state width="2518" height="278" key="GridCell.Tab.0.right/0.23.2560.1337@0.23.2560.1337" timestamp="1578674058183" />
+    <state width="2518" height="278" key="GridCell.Tab.1.bottom" timestamp="1578674058185">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
-    <state width="2518" height="278" key="GridCell.Tab.1.bottom/0.23.2560.1337@0.23.2560.1337" timestamp="1578412223738" />
-    <state width="2518" height="278" key="GridCell.Tab.1.center" timestamp="1578412223738">
+    <state width="2518" height="278" key="GridCell.Tab.1.bottom/0.23.2560.1337@0.23.2560.1337" timestamp="1578674058185" />
+    <state width="2518" height="278" key="GridCell.Tab.1.center" timestamp="1578674058184">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
-    <state width="2518" height="278" key="GridCell.Tab.1.center/0.23.2560.1337@0.23.2560.1337" timestamp="1578412223738" />
-    <state width="2518" height="278" key="GridCell.Tab.1.left" timestamp="1578412223737">
+    <state width="2518" height="278" key="GridCell.Tab.1.center/0.23.2560.1337@0.23.2560.1337" timestamp="1578674058184" />
+    <state width="2518" height="278" key="GridCell.Tab.1.left" timestamp="1578674058184">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
-    <state width="2518" height="278" key="GridCell.Tab.1.left/0.23.2560.1337@0.23.2560.1337" timestamp="1578412223737" />
-    <state width="2518" height="278" key="GridCell.Tab.1.right" timestamp="1578412223738">
+    <state width="2518" height="278" key="GridCell.Tab.1.left/0.23.2560.1337@0.23.2560.1337" timestamp="1578674058184" />
+    <state width="2518" height="278" key="GridCell.Tab.1.right" timestamp="1578674058184">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
-    <state width="2518" height="278" key="GridCell.Tab.1.right/0.23.2560.1337@0.23.2560.1337" timestamp="1578412223738" />
+    <state width="2518" height="278" key="GridCell.Tab.1.right/0.23.2560.1337@0.23.2560.1337" timestamp="1578674058184" />
     <state x="789" y="330" key="SettingsEditor" timestamp="1577441528475">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
     <state x="789" y="330" key="SettingsEditor/0.23.2560.1337@0.23.2560.1337" timestamp="1577441528475" />
-    <state x="880" y="431" key="Vcs.Push.Dialog.v2" timestamp="1578330436829">
+    <state x="880" y="431" key="Vcs.Push.Dialog.v2" timestamp="1578413101877">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
-    <state x="880" y="431" key="Vcs.Push.Dialog.v2/0.23.2560.1337@0.23.2560.1337" timestamp="1578330436829" />
-    <state x="959" y="524" key="com.intellij.ide.util.TipDialog" timestamp="1578400149025">
+    <state x="880" y="431" key="Vcs.Push.Dialog.v2/0.23.2560.1337@0.23.2560.1337" timestamp="1578413101877" />
+    <state x="959" y="524" key="com.intellij.ide.util.TipDialog" timestamp="1578656910797">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
-    <state x="959" y="524" key="com.intellij.ide.util.TipDialog/0.23.2560.1337@0.23.2560.1337" timestamp="1578400149025" />
+    <state x="959" y="524" key="com.intellij.ide.util.TipDialog/0.23.2560.1337@0.23.2560.1337" timestamp="1578656910797" />
     <state x="992" y="592" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1576759862967">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
@@ -330,9 +361,19 @@
           <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/rsticks/MultithreadingDemo.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/rsticks/Main.java</url>
-          <line>13</line>
-          <option name="timeStamp" value="15" />
+          <line>21</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/rsticks/fractal/Main.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="20" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

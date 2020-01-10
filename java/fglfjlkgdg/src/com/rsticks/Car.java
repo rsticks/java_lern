@@ -1,11 +1,13 @@
 package com.rsticks;
 
+import org.w3c.dom.ls.LSOutput;
+
 import java.util.Collection;
 
 public class Car{
 	private int     maxSpeed;
 	private int     seed;
-	String          number;
+	private String  number;
 
 	public Car(int maxSpeed, int seed, String num)
 	{
@@ -30,7 +32,7 @@ public class Car{
 
 class Toyota  extends Car{
 
-	public Toyota(int maxSpeed, int seed, String num) {
+	public Toyota(int maxSpeed, int seed, String num){
 		super(maxSpeed, seed, num);
 	}
 

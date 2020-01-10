@@ -2,6 +2,7 @@ package com.rsticks;
 
 import org.jetbrains.annotations.NotNull;
 
+import javax.swing.*;
 import java.util.*;
 
 import java.security.MessageDigest;
@@ -10,6 +11,8 @@ import java.security.MessageDigest;
 public class Main{
     public static void main(@NotNull String[] args)
     {
+        Car cr = new Car(200, 2, "xep");
+        int [] array = new int[10];
         List list = new LinkedList();
         list.add("111");
         list.add(123);
@@ -17,6 +20,9 @@ public class Main{
         list.add("232134");
         list.add(2, "ppp");
         Iterator x = list.iterator();
+        while(x.hasNext())
+            System.out.println(x.next());
+
         System.out.println("size array: " + list.size());
         System.out.println("list content: " + list);
 //        Toyota toyo = new Toyota(230, 3, "007");

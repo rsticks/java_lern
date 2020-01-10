@@ -1,14 +1,16 @@
 package com.rsticks;
 
 
-public class ThrTest implements Runnable{
+import javax.swing.text.Segment;
+
+abstract public class ThrTest implements Runnable{
 	private Thread thr;
 	private String nameThr;
 
-	public ThrTest(String threadName) {
-		this.nameThr = threadName;
-		System.out.println("Thread " + threadName + " created successfully.");
-	}
+//	public ThrTest(String threadName) {
+//		this.nameThr = threadName;
+//		System.out.println("Thread " + threadName + " created successfully.");
+//	}
 
 	@Override
 	public void run() {
@@ -33,5 +35,16 @@ public class ThrTest implements Runnable{
 			thr = new Thread(this, nameThr);
 			thr.start();
 		}
+	}
+	public void setThrPriority(int priority)
+	{
+		thr.setPriority(priority);
+	}
+}
+
+class ThrTwo extends ThrTest{
+	public ThrTwo()
+	{
+
 	}
 }

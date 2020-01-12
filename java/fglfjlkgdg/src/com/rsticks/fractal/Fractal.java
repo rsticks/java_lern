@@ -7,7 +7,7 @@ public class Fractal extends JFrame {
 
 	public Fractal(String name){
 		super(name);
-		this.setBounds(50,50, 500,500);
+		this.setBounds(50,50, 1000,1000);
 		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 	}
 //

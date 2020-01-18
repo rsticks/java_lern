@@ -11,7 +11,6 @@ import java.security.MessageDigest;
 public class Main{
     public static void main(@NotNull String[] args)
     {
-        Car cr = new Car(200, 2, "xep");
         int [] array = new int[10];
         List list = new LinkedList();
         list.add("111");
@@ -19,9 +18,7 @@ public class Main{
         list.add("333");
         list.add("232134");
         list.add(2, "ppp");
-        Iterator x = list.iterator();
-        while(x.hasNext())
-            System.out.println(x.next());
+        list.set(2, "f");
 
         System.out.println("size array: " + list.size());
         System.out.println("list content: " + list);

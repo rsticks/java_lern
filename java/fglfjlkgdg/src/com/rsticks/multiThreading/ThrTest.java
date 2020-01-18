@@ -1,16 +1,17 @@
-package com.rsticks;
+package com.rsticks.multiThreading;
 
 
 import javax.swing.text.Segment;
+import java.util.function.UnaryOperator;
 
-abstract public class ThrTest implements Runnable{
+public class ThrTest implements Runnable{
 	private Thread thr;
 	private String nameThr;
 
-//	public ThrTest(String threadName) {
-//		this.nameThr = threadName;
-//		System.out.println("Thread " + threadName + " created successfully.");
-//	}
+	public ThrTest(String threadName) {
+		this.nameThr = threadName;
+		System.out.println("Thread " + threadName + " created successfully.");
+	}
 
 	@Override
 	public void run() {
@@ -24,6 +25,8 @@ abstract public class ThrTest implements Runnable{
 			}
 		}catch (InterruptedException e){
 			System.out.println("Thread " + nameThr + " interrupted.");
+			e.printStackTrace();
+		} catch (Exception e) {
 			e.printStackTrace();
 		}
 		System.out.println("Leaving thread " + nameThr);
@@ -39,12 +42,5 @@ abstract public class ThrTest implements Runnable{
 	public void setThrPriority(int priority)
 	{
 		thr.setPriority(priority);
-	}
-}
-
-class ThrTwo extends ThrTest{
-	public ThrTwo()
-	{
-
 	}
 }

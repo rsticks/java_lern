@@ -4,7 +4,7 @@ import org.w3c.dom.ls.LSOutput;
 
 import java.util.Collection;
 
-public class Car{
+public class Car implements Cloneable{
 	private int     maxSpeed;
 	private int     seed;
 	private String  number;
@@ -14,6 +14,11 @@ public class Car{
 		this.maxSpeed = maxSpeed;
 		this.seed = seed;
 		this.number = num;
+	}
+
+	@Override
+	protected Car clone() throws CloneNotSupportedException {
+		return (Car) super.clone();
 	}
 
 	public int getMaxSpeed() {

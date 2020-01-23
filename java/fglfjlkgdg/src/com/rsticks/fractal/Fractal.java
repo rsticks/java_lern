@@ -19,23 +19,25 @@ public class Fractal extends JFrame {
 
 }
 
-class PixelComponent extends JComponent
+class PixelComponent extends JComponent implements Cloneable
 {
 	private Color color;
+	private Graphics g;
 
-	public PixelComponent(Color color)
+	@Override
+	protected PixelComponent clone() throws CloneNotSupportedException {
+		return (PixelComponent) super.clone();
+	}
+
+	public PixelComponent(Color color, Graphics g)
 	{
 		super();
 		this.color = color;
+		this.g = g;
 	}
 
 	public void setColor(Color color) {
 		this.color = color;
-	}
-
-	public PixelComponent()
-	{
-		this(Color.BLACK);
 	}
 
 	public void paintComponent(Graphics g)
@@ -43,18 +45,16 @@ class PixelComponent extends JComponent
 		super.paintComponent(g);
 
 		g.setColor(color);
-		g.fillRect(0, 0, 500, 500);
+		g.fillRect(0, 0, 1000, 1000);
 	}
-	public void drawPixel(Graphics g, int x, int y, Color color1)
+	public synchronized void drawPixel(int x, int y, Color color1)
 	{
-		super.paintComponent(g);
-
 		g.setColor(color1);
 		g.fillRect(x, y, 1, 1);
 	}
 }
 
-class FractalData{
+class FractalData implements Cloneable{
 	private int width;
 	private int height;
 
@@ -63,6 +63,12 @@ class FractalData{
 
 	private Complex factor;
 	private Complex c;
+	private Complex z;
+
+	@Override
+	protected FractalData clone() throws CloneNotSupportedException {
+		return (FractalData) super.clone();
+	}
 
 	public FractalData(int width, int height, double min_re, double min_im, double max_re) {
 		this.width = width;
@@ -74,6 +80,15 @@ class FractalData{
 		c = new Complex(max.getIm() - 0 * factor.getIm(), min.getRe() + 0 * factor.getRe());
 	}
 
+	public Complex getZ() {
+		return z;
+	}
+
+	public void setZ(Complex z) {
+		this.z = z;
+	}
+
+
 	public void setImC(int y)
 	{
 		c.setIm(max.getIm() - y * factor.getIm());
@@ -84,35 +99,60 @@ class FractalData{
 		c.setRe(min.getRe() + x * factor.getRe());
 	}
 
-	public int getWidth() {
+	public Complex newComplZ()
+	{
+		z = new Complex(c.getRe(), c.getIm());
+		return z;
+	}
+	public void complexZ()
+	{
+		z = new Complex(Math.pow(z.getRe(), 2.0) - Math.pow(z.getIm(), 2.0) + c.getRe(),
+				2.0 * z.getRe() * z.getIm() + c.getIm());
+	}
+
+	public int getWidth()
+	{
 		return width;
 	}
 
-	public int getHeight() {
+	public int getHeight()
+	{
 		return height;
 	}
 
-	public Complex getMin() {
+	public Complex getMin()
+	{
 		return min;
 	}
 
-	public Complex getMax() {
+	public Complex getMax()
+	{
 		return max;
 	}
 
-	public Complex getFactor() {
+	public Complex getFactor()
+	{
 		return factor;
 	}
 
-	public void setFactor(Complex factor) {
+	public void setFactor(Complex factor)
+	{
 		this.factor = factor;
 	}
 
-	public Complex getC() {
+	public Complex getC()
+	{
 		return c;
 	}
 
-	public void setC(Complex c) {
+	public void setC(Complex c)
+	{
 		this.c = c;
 	}
+}
+
+class XepoB_class {
+	private int gkhfg;
+	private char jgg;
+	private String str;
 }

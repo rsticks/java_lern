@@ -1,20 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6b0ec926-556b-4661-a8f0-9df2fb7997fd" name="Default Changelist" comment="some test with thread">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/rsticks/fractal/ThreadsFract.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/rsticks/multiThreading/MultithreadingDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/rsticks/multiThreading/ThreadByExtending.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/rsticks/multiThreading/ThreadByExtendingDemo.java" afterDir="false" />
+    <list default="true" id="6b0ec926-556b-4661-a8f0-9df2fb7997fd" name="Default Changelist" comment="fract multithreads">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/fglfjlkgdg/com/rsticks/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/fglfjlkgdg/com/rsticks/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/rsticks/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/rsticks/Car.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/rsticks/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/rsticks/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/rsticks/MultithreadingDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/rsticks/ThrTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/rsticks/multiThreading/ThrTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/rsticks/fractal/Fractal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/rsticks/fractal/Fractal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/rsticks/fractal/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/rsticks/fractal/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/rsticks/fractal/ThreadsFract.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/rsticks/fractal/ThreadsFract.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,8 +137,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.MultithreadingDemo" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.MultithreadingDemo" />
         <item itemvalue="Application.ThreadByExtendingDemo" />
         <item itemvalue="Application.Quiz" />
       </list>
@@ -202,7 +195,10 @@
       <workItem from="1578840856701" duration="2925000" />
       <workItem from="1579171295855" duration="1175000" />
       <workItem from="1579180852963" duration="4929000" />
-      <workItem from="1579347012084" duration="9790000" />
+      <workItem from="1579347012084" duration="9964000" />
+      <workItem from="1579521574558" duration="767000" />
+      <workItem from="1579604285244" duration="1455000" />
+      <workItem from="1579774738824" duration="7898000" />
     </task>
     <task id="LOCAL-00001" summary="merge arrays">
       <created>1577544070331</created>
@@ -260,7 +256,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579194896610</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="fract multithreads">
+      <created>1579367573320</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1579367573320</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -287,7 +290,8 @@
     <MESSAGE value="thread test" />
     <MESSAGE value="fix fractal" />
     <MESSAGE value="some test with thread" />
-    <option name="LAST_COMMIT_MESSAGE" value="some test with thread" />
+    <MESSAGE value="fract multithreads" />
+    <option name="LAST_COMMIT_MESSAGE" value="fract multithreads" />
   </component>
   <component name="WindowStateProjectService">
     <state x="964" y="368" key="#Main" timestamp="1578578564277">
@@ -306,10 +310,10 @@
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
     <state x="1028" y="535" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.23.2560.1337@0.23.2560.1337" timestamp="1577438664911" />
-    <state x="1093" y="408" key="#com.intellij.ide.util.MemberChooser" timestamp="1579366618167">
+    <state x="1093" y="408" key="#com.intellij.ide.util.MemberChooser" timestamp="1579787163618">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
-    <state x="1093" y="408" key="#com.intellij.ide.util.MemberChooser/0.23.2560.1337@0.23.2560.1337" timestamp="1579366618167" />
+    <state x="1093" y="408" key="#com.intellij.ide.util.MemberChooser/0.23.2560.1337@0.23.2560.1337" timestamp="1579787163618" />
     <state x="1130" y="587" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1577449516002">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
@@ -330,10 +334,10 @@
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
     <state x="1028" y="554" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.23.2560.1337@0.23.2560.1337" timestamp="1578410620904" />
-    <state x="601" y="367" key="CommitChangelistDialog2" timestamp="1579361920752">
+    <state x="601" y="367" key="CommitChangelistDialog2" timestamp="1579781930230">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
-    <state x="601" y="367" key="CommitChangelistDialog2/0.23.2560.1337@0.23.2560.1337" timestamp="1579361920752" />
+    <state x="601" y="367" key="CommitChangelistDialog2/0.23.2560.1337@0.23.2560.1337" timestamp="1579781930230" />
     <state x="100" y="123" width="2360" height="1137" key="DiffContextDialog" timestamp="1578841314466">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
@@ -354,50 +358,50 @@
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
     <state width="2518" height="469" key="GridCell.Tab.-1.right/0.23.2560.1337@0.23.2560.1337" timestamp="1576755330136" />
-    <state width="2518" height="326" key="GridCell.Tab.0.bottom" timestamp="1579367532842">
+    <state width="2518" height="326" key="GridCell.Tab.0.bottom" timestamp="1579789615098">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
-    <state width="2518" height="326" key="GridCell.Tab.0.bottom/0.23.2560.1337@0.23.2560.1337" timestamp="1579367532842" />
-    <state width="2518" height="326" key="GridCell.Tab.0.center" timestamp="1579367532841">
+    <state width="2518" height="326" key="GridCell.Tab.0.bottom/0.23.2560.1337@0.23.2560.1337" timestamp="1579789615098" />
+    <state width="2518" height="326" key="GridCell.Tab.0.center" timestamp="1579789615097">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
-    <state width="2518" height="326" key="GridCell.Tab.0.center/0.23.2560.1337@0.23.2560.1337" timestamp="1579367532841" />
-    <state width="2518" height="326" key="GridCell.Tab.0.left" timestamp="1579367532840">
+    <state width="2518" height="326" key="GridCell.Tab.0.center/0.23.2560.1337@0.23.2560.1337" timestamp="1579789615097" />
+    <state width="2518" height="326" key="GridCell.Tab.0.left" timestamp="1579789615097">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
-    <state width="2518" height="326" key="GridCell.Tab.0.left/0.23.2560.1337@0.23.2560.1337" timestamp="1579367532840" />
-    <state width="2518" height="326" key="GridCell.Tab.0.right" timestamp="1579367532842">
+    <state width="2518" height="326" key="GridCell.Tab.0.left/0.23.2560.1337@0.23.2560.1337" timestamp="1579789615097" />
+    <state width="2518" height="326" key="GridCell.Tab.0.right" timestamp="1579789615098">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
-    <state width="2518" height="326" key="GridCell.Tab.0.right/0.23.2560.1337@0.23.2560.1337" timestamp="1579367532842" />
-    <state width="2518" height="278" key="GridCell.Tab.1.bottom" timestamp="1579353751885">
+    <state width="2518" height="326" key="GridCell.Tab.0.right/0.23.2560.1337@0.23.2560.1337" timestamp="1579789615098" />
+    <state width="2518" height="278" key="GridCell.Tab.1.bottom" timestamp="1579783296749">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
-    <state width="2518" height="278" key="GridCell.Tab.1.bottom/0.23.2560.1337@0.23.2560.1337" timestamp="1579353751885" />
-    <state width="2518" height="278" key="GridCell.Tab.1.center" timestamp="1579353751884">
+    <state width="2518" height="278" key="GridCell.Tab.1.bottom/0.23.2560.1337@0.23.2560.1337" timestamp="1579783296749" />
+    <state width="2518" height="278" key="GridCell.Tab.1.center" timestamp="1579783296748">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
-    <state width="2518" height="278" key="GridCell.Tab.1.center/0.23.2560.1337@0.23.2560.1337" timestamp="1579353751884" />
-    <state width="2518" height="278" key="GridCell.Tab.1.left" timestamp="1579353751884">
+    <state width="2518" height="278" key="GridCell.Tab.1.center/0.23.2560.1337@0.23.2560.1337" timestamp="1579783296748" />
+    <state width="2518" height="278" key="GridCell.Tab.1.left" timestamp="1579783296748">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
-    <state width="2518" height="278" key="GridCell.Tab.1.left/0.23.2560.1337@0.23.2560.1337" timestamp="1579353751884" />
-    <state width="2518" height="278" key="GridCell.Tab.1.right" timestamp="1579353751885">
+    <state width="2518" height="278" key="GridCell.Tab.1.left/0.23.2560.1337@0.23.2560.1337" timestamp="1579783296748" />
+    <state width="2518" height="278" key="GridCell.Tab.1.right" timestamp="1579783296749">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
-    <state width="2518" height="278" key="GridCell.Tab.1.right/0.23.2560.1337@0.23.2560.1337" timestamp="1579353751885" />
+    <state width="2518" height="278" key="GridCell.Tab.1.right/0.23.2560.1337@0.23.2560.1337" timestamp="1579783296749" />
     <state x="789" y="330" key="SettingsEditor" timestamp="1578681261018">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
     <state x="789" y="330" key="SettingsEditor/0.23.2560.1337@0.23.2560.1337" timestamp="1578681261018" />
-    <state x="880" y="431" key="Vcs.Push.Dialog.v2" timestamp="1579194903375">
+    <state x="880" y="431" key="Vcs.Push.Dialog.v2" timestamp="1579367577110">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
-    <state x="880" y="431" key="Vcs.Push.Dialog.v2/0.23.2560.1337@0.23.2560.1337" timestamp="1579194903375" />
-    <state x="959" y="524" key="com.intellij.ide.util.TipDialog" timestamp="1579347412421">
+    <state x="880" y="431" key="Vcs.Push.Dialog.v2/0.23.2560.1337@0.23.2560.1337" timestamp="1579367577110" />
+    <state x="959" y="524" key="com.intellij.ide.util.TipDialog" timestamp="1579780242029">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
-    <state x="959" y="524" key="com.intellij.ide.util.TipDialog/0.23.2560.1337@0.23.2560.1337" timestamp="1579347412421" />
+    <state x="959" y="524" key="com.intellij.ide.util.TipDialog/0.23.2560.1337@0.23.2560.1337" timestamp="1579780242029" />
     <state x="992" y="592" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1576759862967">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
@@ -414,6 +418,10 @@
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
     <state x="872" y="286" width="816" height="810" key="find.popup/0.23.2560.1337@0.23.2560.1337" timestamp="1577282463466" />
+    <state x="1042" y="314" key="refactoring.ChangeSignatureDialog" timestamp="1579782428004">
+      <screen x="0" y="23" width="2560" height="1337" />
+    </state>
+    <state x="1042" y="314" key="refactoring.ChangeSignatureDialog/0.23.2560.1337@0.23.2560.1337" timestamp="1579782428004" />
     <state x="945" y="328" width="670" height="676" key="search.everywhere.popup" timestamp="1579355184442">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
@@ -431,14 +439,6 @@
           <url>file://$PROJECT_DIR$/src/com/rsticks/multiThreading/MultithreadingDemo.java</url>
           <line>6</line>
           <option name="timeStamp" value="16" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/com/rsticks/fractal/Main.java</url>
-          <line>6</line>
-          <properties class="com.rsticks.fractal.Main" method="main">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="23" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

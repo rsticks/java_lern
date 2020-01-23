@@ -35,7 +35,7 @@ public class Main{
 //
 //        Date time = new Date();
 //        System.out.println(time.getTime());
-//        Test.isPalindrome("xttx0");
+        Test.isPalindrome("xttx0");
 //
 //        int[] arr = Test.mergeArrays(a1, a2);
 //        System.out.println(Arrays.toString(arr));

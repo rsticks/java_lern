@@ -10,19 +10,23 @@ public class ThreadsFract extends Thread {
 	private int end;
 	private int x;
 	private PixelComponent pix;
+	private Graphics g;
+	private ChangeColor changeColor;
 
-	public ThreadsFract(FractalData data, int start, int end, PixelComponent p) {
+	public ThreadsFract(FractalData data, int start, int end, PixelComponent p, Graphics g) {
 		this.data = data;
 		this.start = start;
 		this.end = end;
 		this.pix = p;
+		this.g = g;
 	}
 
 	@Override
 	public void run() {
 		int iteration = 0;
 		int max_iteration = 50;
-		ChangeColor changeColor;
+		//ChangeColor changeColor;
+		double t;
 
 		while (start < end)
 		{
@@ -30,21 +34,25 @@ public class ThreadsFract extends Thread {
 			x = 0;
 			while (x < data.getWidth())
 			{
-				data.setReC();
-				z = new Complex(c.getRe(), c.getIm());
+				data.setReC(x);
+				data.newComplZ();
 				iteration = 0;
-				while (Math.pow(z.getRe(), 2.0) + Math.pow(z.getIm(), 2.0) <= 4 && iteration < max_iteration)
+				while (Math.pow(data.getZ().getRe(), 2.0) + Math.pow(data.getZ().getIm(), 2.0) <= 4 && iteration < max_iteration)
 				{
-					z = new Complex(Math.pow(z.getRe(), 2.0) - Math.pow(z.getIm(), 2.0) + c.getRe(),
-							2.0 * z.getRe() * z.getIm() + c.getIm());
+					data.complexZ();
 					iteration++;
 				}
 				t = (double)iteration / (double)max_iteration;
 				changeColor = new ChangeColor(t);
-				pix.drawPixel(g, x, y, new Color(changeColor.getR(), changeColor.getG(), changeColor.getB()));
+				mmm();
+				//pix.drawPixel(x, start, new Color(changeColor.getR(), changeColor.getG(), changeColor.getB()));
 				x++;
 			}
-			y++;
+			start++;
 		}
+	}
+
+	private synchronized void mmm() {
+		pix.drawPixel(x, start, new Color(changeColor.getR(), changeColor.getG(), changeColor.getB()));
 	}
 }
